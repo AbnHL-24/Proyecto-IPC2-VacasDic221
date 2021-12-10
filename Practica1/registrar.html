@@ -53,10 +53,14 @@
     <script>
         function imprimir() {
             let usuario = document.querySelector('#usuario').value;
+            let password = document.querySelector('#password').value;
+            let confirmarPassword = document.querySelector('#confirmarPassword').value;
             let nombre = document.querySelector('#nombre').value;
             let apellido = document.querySelector('#apellido').value;
 
             console.log(`Usuario: ${usuario}`);
+            console.log(`Contraseña: ${password}`);
+            console.log(`Confirmar contraseña ${confirmarPassword}`)
             console.log(`Nombre: ${nombre}`);
             console.log(`Apellido: ${apellido}`);   
         }
